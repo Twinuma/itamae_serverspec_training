@@ -1,0 +1,5 @@
+### Vagrant ###
+.vagrant/
+
+### OSX ###
+.DS_Store

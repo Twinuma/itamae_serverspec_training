@@ -20,16 +20,14 @@ end
 ├── README.md
 ├── Rakefile
 ├── Vagrantfile
-├── itamae
-│   └── cookbooks
-│       ├── command_recipe.rb
-│       ├── package_recipe.rb
-│       ├── service_recipe.rb
-│       ├── templates
-│       └── test_recipe.rb
+├── recipes
+│   ├── command_recipe.rb
+│   ├── package_recipe.rb
+│   ├── service_recipe.rb
+│   ├── templates
+│   └── test_recipe.rb
 └── spec
     ├── itamae-web
-    │   ├── sample_spec.rb
     │   └── test_spec.rb
     └── spec_helper.rb
 ```

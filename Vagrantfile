@@ -20,7 +20,7 @@ Vagrant.configure(2) do |config|
   #  node.vm.network :private_network, ip: "192.168.33.10"
   #end
 
-  config.vm.define "itame-web" do |node|
+  config.vm.define "itamae-web" do |node|
     node.vm.box = "learningchef/centos65"
     node.vm.hostname = "itamae-web"
     node.vm.network :private_network, ip: "192.168.33.10"

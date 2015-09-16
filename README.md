@@ -5,6 +5,15 @@
 vagrant init learningchef/centos65
 ```
 
+## modify Vagrantfile
+```
+config.vm.define "itamae-web" do |node|
+  node.vm.box = "learningchef/centos65"
+  node.vm.hostname = "itamae-web"
+  node.vm.network :private_network, ip: "192.168.33.10"
+end
+```
+
 ## tree
 ```
 ./

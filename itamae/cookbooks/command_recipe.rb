@@ -3,10 +3,10 @@ execute "yum update all package" do
   user "root"
 end
 
-#execute "create group 'www'" do
-#  command "groupadd www"
-#  user "root"
-#end
+execute "create group 'www'" do
+  command "groupadd www"
+  user "root"
+end
 
 execute "add group user 'vagrant' to 'wwww' " do
   command "usermod -a -G www vagrant"

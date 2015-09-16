@@ -1,7 +1,9 @@
 # itamae_serverspec_training
 
 ## vagrant init
+```
 vagrant init learningchef/centos65
+```
 
 ## tree
 ```
@@ -24,13 +26,21 @@ vagrant init learningchef/centos65
 ```
 
 ## dry-run for itamae
+```
 itamae ssh --vagrant -h itamae-web test_recipe.rb -n
+```
 
 ## run for itamae
+```
 itamae ssh --vagrant -h itamae-web test_recipe.rb
+```
 
 ## dry-run for serverspec
+```
 itamae ssh --vagrant -h itamae-web test_recipe.rb -n
+```
 
 ## run for serverspec
+```
 itamae ssh --vagrant -h itamae-web test_recipe.rb
+```
